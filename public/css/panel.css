@@ -85,9 +85,10 @@ body {
   background-size: cover;
   background-color: #031135;
   min-height: 100vh;
-  font-family: Open Sans Regular;
-  font-size: 16px;
-  color: #fff;
+  font-weight: var(--bs-body-font-weight);
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  color: var(--bs-body-bg);
 }
 
 hr {
@@ -3087,10 +3088,7 @@ textarea {
 .btn:hover {
   color: #212529;
 }
-.btn-check:focus + .btn, .btn:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
-}
+
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
   opacity: 0.65;
@@ -3106,25 +3104,6 @@ textarea {
   color: #fff;
   background-color: #40a2d6;
   border-color: #2994d3;
-}
-.btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
-}
-.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #cca000;
-  border-color: #bf9600;
-}
-.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
-}
-.btn-primary:disabled, .btn-primary.disabled {
-  color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
 }
 
 .btn-secondary {
@@ -4643,6 +4622,7 @@ textarea {
     font-size: 20px;
     color: #fff;
     text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
