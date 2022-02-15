@@ -40,12 +40,11 @@
                 <div class="col-4">
                     <h3>Menu</h3>
                     <ul class="list-group">
-                        <li class=""><a href="index.php">Accueil</a></li>
-                        <li class=""><a href="index.php">Wiki</a></li>
-                        <li class=""><a href="index.php">Discord</a></li>
-                        <li class=""><a href="index.php">Règlement</a></li>
-                        <li class=""><a href="index.php">Wiki</a></li>
-                        <li class=""><a href="index.php">Devlog</a></li>
+                        <li class=""><a href="{{ route('home') }}">Accueil</a></li>
+                        <li class=""><a href="https://wiki.dreamv.be/" target="_blank" rel="noopener noreferrer">Wiki</a></li>
+                        <li class=""><a href="http://discord.dreamv.fr" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                        <li class=""><a href="https://rules.dreamv.be/" target="_blank" rel="noopener noreferrer">Règlement</a></li>
+                        <li class=""><a href="#portfolio">Devlog</a></li>
                     </ul>                   
                 </div>
                 <div class="col-4">S.A DreamV est un serveur roleplay whitelist proposant une immersion unique avec comme seule limite la réalité ! Si vous avez 18 ans et plus, venez nous rejoindre pour commencer votre aventure et écrire la suite de votre histoire.</div>

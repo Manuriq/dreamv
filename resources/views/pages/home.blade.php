@@ -10,24 +10,31 @@
         <div class="row text-center d-flex justify-content-center">
             <div class="col-md-4 fivem m-4">
                 <span class="fa-stack fa-4x mb-4">
-                    <img src="assets/img/fivem.png" width="150px" height="150px" alt="FiveM">
+                    <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer"><img src="assets/img/fivem.png" width="150px" height="150px" alt="FiveM"></a>
                 </span>
                 <h4 class="my-3">FiveM</h4>
                 <p class="text-muted">Téléchargez et installez fivem en cliquant sur ce <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer">lien</a>.</p>
             </div>
             <div class="col-md-4 whitelist m-4">
                 <span class="fa-stack fa-4x mb-4">
-                    <img src="assets/img/whitelist.png" width="150px" height="150px" alt="WhiteList">
+                    <a href="login.php" target="_blank" rel="noopener noreferrer"><img src="assets/img/whitelist.png" width="150px" height="150px" alt="WhiteList"></a>
                 </span>
-                <h4 class="my-3">whitelist</h4>
+                <h4 class="my-3">Whitelist</h4>
                 <p class="text-muted"><a href="login.php" target="_blank" rel="noopener noreferrer">Connectez</a> vous directement sur votre panel avec discord pour passer la whitelist !</p>
             </div>
-            <div class="col-md-4 connect m-4">
+            <!-- <div class="col-md-4 connect m-4">
                 <span class="fa-stack fa-4x">
-                    <img src="assets/logo.png" width="150px" height="120px" alt="Connexion">
+                    <a href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
                 </span>
                 <h4 class="my-3">Connectez-vous</h4>
-                <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b>game.dreamv-rp.com</b>.</p>
+                <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.be</b></p>
+            </div> -->
+            <div class="col-md-4 connect m-4">
+                <span class="fa-stack fa-4x">
+                    <a href="#WIP" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
+                </span>
+                <h4 class="my-3">Connectez-vous</h4>
+                <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="#WIP" rel="noopener noreferrer">game.dreamv.be</b></p>
             </div>
         </div>
     </div>
@@ -100,14 +107,7 @@
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/886307709018865706/903050728644427806/moi.jpg" alt="..." />
                     <h4>TheFRcRaZy</h4>
-                    <p class="text-muted">Project Foundation / Lead Dev</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/903049537986387978/903050140523302952/248683364_939169580030206_1475933634255747815_n.jpg" alt="..." />
-                    <h4>MrSneaz</h4>
-                    <p class="text-muted">Community Manager / Administrateur</p>
+                    <p class="text-muted">Fondateur / Lead Dev<br>TheFRcRaZy#3254</p>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -119,16 +119,37 @@
             </div>
             <div class="col-lg-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                    <h4>Azylium</h4>
-                    <p class="text-muted">Dev FiveM</p>
+                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/903049537986387978/903050140523302952/248683364_939169580030206_1475933634255747815_n.jpg" alt="..." />
+                    <h4>MrSneaz</h4>
+                    <p class="text-muted">Community Manager / Administrateur</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/avatars/135043001104728065/c8bbd9256268702b423be293c3eef453.webp" alt="..." />
+                    <h4>Azylium</h4>
+                    <p class="text-muted">Dev FiveM / Administrateur</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/avatars/343455706021625857/d591f8c81c4beb402a9fe267b02cabc9.webp" alt="..." />
                     <h4>WarmaanTV</h4>
                     <p class="text-muted">Administrateur</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/902184757251698748/941586955483893780/IMG_20220207_221045_643.jpg" alt="..." />
+                    <h4>Roumain</h4>
+                    <p class="text-muted">Mappeur / Builder</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/897965542021935125/941469663945170994/IMG_20211221_123937_189.jpg" alt="..." />
+                    <h4>Raimies</h4>
+                    <p class="text-muted">Douanier</p>
                 </div>
             </div>
         </div>
