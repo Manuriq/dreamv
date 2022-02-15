@@ -5195,13 +5195,9 @@ hr {
 }
 
 .body-card-left p{
-  color: var(--bs-gray-600);
-}
-
-.body-card-right p{
+  color: var(--bs-gray-500);
   font-weight: bolder;
 }
-
 
 .list-group-item + .list-group-item {
   border-top-width: 0;

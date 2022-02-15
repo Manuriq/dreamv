@@ -14,14 +14,18 @@
                         <div class="row">
                             <div class="col-4 body-card-left">
                                 <p>Id</p>
-                                <p>Compte</p>
+                                <p>Compte Discord</p>
+                                <p>FiveM ID</p>
+                                <p>Rockstar ID</p>
                                 <p>Email</p>
                                 <p>Whitelist</p>
                                 <p>QCM</p>
                             </div>
-                            <div class="col-8 body-card-right">
+                            <div class="col-8">
                                 <p>{{ Auth::user()->discordid }}</p>
                                 <p>{{ Auth::user()->username }}#{{ Auth::user()->discriminator }}</p>
+                                <p>{{ Auth::user()->fivemid ? Auth::user()->fivemid : 'Inconnu (Vous devez vous connecter 1 fois)' }}</p>
+                                <p>{{ Auth::user()->rockstarid ? Auth::user()->rockstarid : 'Inconnu (Vous devez vous connecter 1 fois)' }}</p>
                                 <p>{{ Auth::user()->email }}</p>
                                 <p>{{ Auth::user()->whitelisted ? 'Validé' : 'Non Validé' }}</p>
                                 @if (Auth::user()->qcm >= 8)
