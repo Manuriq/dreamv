@@ -16,7 +16,7 @@ class Admin
      */
     public function handle(Request $request, Closure $next)
     {
-        if (auth()->user()->group >= 4) {
+        if (auth()->user()->admin >= 4) {
             return $next($request);
         }else{
             return redirect('/panel/home');
