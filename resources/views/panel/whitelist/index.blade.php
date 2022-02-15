@@ -8,7 +8,16 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-12">
                     <div class="card">
-                        @if (Auth::user()->qcm >= 8)
+                        @if (@isset($error))     
+                            <div class="card-header d-flex justify-content-between">
+                                PASSER LA WHITELIST
+                            </div>
+                            <div class="card-body">
+                                <center>      
+                                <p class="card-text" >{{ $error }}</p>
+                                </center>
+                            </div>
+                        @elseif (Auth::user()->qcm >= 8)
                             <div class="card-header d-flex justify-content-between">
                                 ENTRETIENT DISCORD
                             </div>

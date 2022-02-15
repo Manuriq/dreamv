@@ -17,9 +17,19 @@ class QcmController extends Controller
             return view('panel.home');
         }
 
-        $questions = Question::all()->random(4);
+        $questions = Question::all();
+        //dd($questions->count());
+        if($questions->count() < 10){
+            return view('panel.whitelist.index', [
+                'error' => "Il n'y a pas assez de questions pour participer au QCM (Min: 10)"
+            ]);
+        }
         $answers = Answer::all();
-        
+        if($answers->count() < 10){
+            return view('panel.whitelist.index', [
+                'error' => "Il n'y a pas assez de réponses pour participer au QCM (Min: 10)"
+            ]);
+        }
         return view('panel.whitelist.qcm', [
             'questions' => $questions,
             'answers' => $answers
