@@ -23,10 +23,10 @@
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Accueil</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Wiki</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://wiki.dreamv.be/" target="_blank" rel="noopener noreferrer">Wiki</a></li>
                 <li class="nav-item"><a class="nav-link" href="http://discord.dreamv.fr" target="_blank" rel="noopener noreferrer">Discord</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Règlement</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://rules.dreamv.be/" target="_blank" rel="noopener noreferrer">Règlement</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">DevLog</a></li>
                 @auth
                     <li class="nav-item"><a class="nav-link" href="{{ route('panel.home') }}">Panel</a></li> 
