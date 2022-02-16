@@ -25,11 +25,11 @@
                                         <input type="text" value="QCM non validé (Tentatives: {{ $account->try }}/3)" style="color:red;" disabled>
                                     @endif
                                     <select name="group" size="1">
-                                        @if ($account->group == 7)
-                                            <option value="7" selected>Super Admin          
+                                        @if ($account->admin == 4)
+                                            <option value="4" selected>Administrateur          
                                             <option value="1">Joueur 
                                         @else
-                                            <option value="7">Administrateur          
+                                            <option value="4">Administrateur          
                                             <option value="1" selected>Joueur 
                                         @endif
                                     </select>

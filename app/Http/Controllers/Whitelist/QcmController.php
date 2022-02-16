@@ -17,6 +17,12 @@ class QcmController extends Controller
             return view('panel.home');
         }
 
+        if(Auth::user()->try >= 3){
+            return view('panel.home');
+        }
+
+        Auth::user()->try++;
+        Auth::user()->save();
         $questions = Question::all();
         //dd($questions->count());
         if($questions->count() < 10){
@@ -40,25 +46,49 @@ class QcmController extends Controller
     public function validator(Request $request)
     {
 
-        $inputs = $request->All();
+        $inputs = $request->all();
 
-        $scores = -1;
+        $questions = Question::all();
 
-        foreach ($inputs as $key => $input) {
-
-            if(Answer::query()->where('id', $key)->where('isCorrect', $input)->exists()){
-                $scores++;
-            }
-        }
+        $retourFormulaire = $inputs['reponse'];        
         
+
+       $nbError = 0;
+        foreach ($questions as $key => $question) {
+            $error = false;
+            $reponsesDb = $question->answers->keyBy('id')->toArray();            
+
+            if(!array_key_exists($question->id, $retourFormulaire)){
+                //on as pas de reponse pour cette question dans le formulaire !
+                $error = true; 
+            }else{   
+                //l'utilisateur a repondu a la question             
+                foreach ($reponsesDb as $repId => $repInfos) {
+                    if( $repInfos['isCorrect'] && !array_key_exists($repId, $retourFormulaire[$question->id]) ){
+                        //t'as fait une erreur, tu as pas coche la bonne reponse
+                        $error = true; 
+                    }
+
+                    if( !$repInfos['isCorrect'] && array_key_exists($repId, $retourFormulaire[$question->id]) && !$error){
+                        //t'as fait une erreur, tu as pas coche une mauvaise reponse
+                        $error = true; 
+                    }
+
+                    if($error) break;
+                }   
+            }
+            
+            if($error){  $nbError++; }
+        } // fin boucle questions
+
+       
         $account = Auth::user();
-        $account->qcm = $scores;
-        $account->try = $account->try+1;
+        $account->qcm = count($questions)-$nbError;
 
         $account->save();
 
         return view('panel.whitelist.result', [
-            'scores' => $scores,
+            'scores' => $account->qcm,
             'try' => $account->try
         ]);
     }

@@ -17,6 +17,17 @@
                                 <p class="card-text" >{{ $error }}</p>
                                 </center>
                             </div>
+                        @elseif (Auth::user()->try >= 3)
+                        <div class="card-header d-flex justify-content-between">
+                            PASSER LA WHITELIST
+                        </div>
+                        <div class="card-body">
+                            <center>      
+                            <p class="card-text" >Vous avez atteind votre nombre maximum de tentatives ({{ Auth::user()->try }}/3). Contactez un membre de l'administration si vous souhaitez retenter le QCM.
+                            </p>
+                            <a href="{{ route('panel.home') }}" class="btn btn-primary">Retourner à l'accueil</a>
+                            </center>
+                        </div>
                         @elseif (Auth::user()->qcm >= 8)
                             <div class="card-header d-flex justify-content-between">
                                 ENTRETIENT DISCORD

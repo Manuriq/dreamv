@@ -9,7 +9,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header d-flex justify-content-between">
-                            QUESTIONNAIRE A CHOIX MULTIPLES
+                            QUESTIONNAIRE A CHOIX MULTIPLES ({{ Auth::user()->try }}/3 tentatives)
                         </div>
                         <div class="card-body">
                             <form action="{{ route('whitelist.validate') }}" method="POST">
@@ -18,10 +18,9 @@
                                     <h5>{{ $question->content }}</h5>
                                     <ul>
                                     @foreach ($answers as $answer)
-                                        
+                                    
                                         @if ($answer->question->id == $question->id)
-                                            <input type="hidden" name="{{ $answer->id }}" value="0">
-                                            <li><input type="checkbox" name="{{ $answer->id }}" value="1"> {{ $answer->content }}</li>
+                                            <li><input type="checkbox" name="reponse[{{ $question->id }}][{{ $answer->id }}]"> {{ $answer->content }} {{ $answer->isCorrect }}</li>
                                         @endif
                                     @endforeach
                                     </ul>

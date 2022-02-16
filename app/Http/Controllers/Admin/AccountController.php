@@ -82,7 +82,7 @@ class AccountController extends Controller
     public function update(Request $request, Account $account)
     {
 
-        $account->group = $request->group;
+        $account->admin = $request->group;
         $account->whitelisted = $request->whitelisted;
 
         $account->save();
