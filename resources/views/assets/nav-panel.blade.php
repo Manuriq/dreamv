@@ -4,7 +4,6 @@
         @if (Auth::user()->whitelisted == 0)
         <a href="{{ route('whitelist.index') }}"><li class="list-group-item {{ (request()->is('panel/whitelist')) ? 'active' : '' }}"><i class="far fa-address-card fas-custom"></i>Whitelist</li></a>
         @endif
-        <a href="{{ route('panel.home') }}"><li class="list-group-item {{ (request()->is('panel/settings')) ? 'active' : '' }}"><i class="fas fa-cogs fas-custom"></i>Paramètres</li></a>
         @if (Auth::user()->admin >= 4)
             <hr>
             <a href="{{ route('panel.admin.home') }}"><li class="list-group-item {{ (request()->is('admin')) ? 'active' : '' }}"><i class="fas fa-users-cog fas-custom"></i>Administration</li></a>
