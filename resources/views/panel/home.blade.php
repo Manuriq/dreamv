@@ -25,7 +25,7 @@
                                 <div class="col-8">
                                     <p>{{ Auth::user()->discordid }}</p>
                                     <p>{{ Auth::user()->username }}#{{ Auth::user()->discriminator }}</p>
-                                    <p>{{ Auth::user()->fivemid ? Auth::user()->fivemid : 'Inconnu' }}</p>
+                                    <p>{{ Auth::user()->fivemid ? Auth::user()->fivemid : 'Inconnu (Vous devez vous connecter 1 fois)' }}</p>
                                     <p>{{ Auth::user()->rockstarid ? Auth::user()->rockstarid : 'Inconnu (Vous devez vous connecter 1 fois)' }}</p>
                                     <p>{{ Auth::user()->email }}</p>
                                     <p>{{ Auth::user()->whitelisted ? 'Validé' : 'Non Validé' }}</p>
