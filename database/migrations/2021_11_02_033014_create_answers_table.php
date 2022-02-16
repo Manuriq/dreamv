@@ -14,9 +14,9 @@ class CreateAnswersTable extends Migration
     public function up()
     {
         Schema::create('answers', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->BigIncrements('id');
             $table->unsignedBigInteger('question_id');
-            $table->foreign('question_id')->references('id')->on('question')->onDelete('cascade');
+            $table->foreign('question_id')->references('id')->on('questions')->onDelete('cascade');
             $table->string('content');
             $table->boolean('isCorrect');
             $table->timestamps();
