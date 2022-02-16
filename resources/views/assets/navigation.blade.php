@@ -3,13 +3,11 @@
         @auth
             <a class="navbar-brand" href="{{ route('panel.home') }}">
 
-                @if (file_exists(public_path(Auth::user()->avatar)))
+                @if (@getimagesize(Auth::user()->avatar))
                 <img class="mx-auto rounded-circle" src="{{ Auth::user()->avatar }}" width="85px" height="85px" alt="Votre Avatar" />
                 @else
-            <img class="mx-auto rounded-circle" src="{{ asset('assets/img/discord-default.jpg') }}" width="85px" height="85px"alt="Logo DreamV" />
+                <img class="mx-auto rounded-circle" src="{{ asset('assets/img/discord-default.jpg') }}" width="85px" height="85px"alt="Logo DreamV" />
                 @endif
-
-
             </a>
         @endauth
         @guest
