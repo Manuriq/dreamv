@@ -16,7 +16,11 @@ class AnswerController extends Controller
      */
     public function index()
     {
-        return view('panel.admin.answer.index');
+        $answers = Answer::query()->where('content', 'LIKE','%'.$request->content.'%')->get();
+
+        return view('panel.admin.answer.index', [
+            'answers' => $answers
+        ]);
     }
 
     public function search(Request $request)

@@ -15,7 +15,11 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        return view('panel.admin.question.index');
+        $questions = Question::all();
+        
+        return view('panel.admin.question.index', [
+            'questions' => $questions
+        ]);
     }
 
     public function search(Request $request)
