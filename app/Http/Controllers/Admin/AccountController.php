@@ -15,7 +15,11 @@ class AccountController extends Controller
      */
     public function index()
     {
-        return view('panel.admin.account.index');
+        $accounts = Account::all();
+        
+        return view('panel.admin.account.index', [
+            'accounts' => $accounts
+        ]);
     }
 
     public function search(Request $request)
