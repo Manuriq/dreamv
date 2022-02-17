@@ -21,10 +21,6 @@ class QcmController extends Controller
             return view('panel.home');
         }
 
-        Auth::user()->try++;
-        Auth::user()->save();
-        $questions = Question::all();
-        //dd($questions->count());
         if($questions->count() < 10){
             return view('panel.whitelist.index', [
                 'error' => "Il n'y a pas assez de questions pour participer au QCM (Min: 10)"
@@ -36,6 +32,12 @@ class QcmController extends Controller
                 'error' => "Il n'y a pas assez de réponses pour participer au QCM (Min: 10)"
             ]);
         }
+        
+        // On ajoute une tentative à l'utilisateur
+        Auth::user()->try++;
+        Auth::user()->save();
+        $questions = Question::all();
+
         return view('panel.whitelist.qcm', [
             'questions' => $questions,
             'answers' => $answers
