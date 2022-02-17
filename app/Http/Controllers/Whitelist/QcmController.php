@@ -13,6 +13,8 @@ class QcmController extends Controller
 {
     public function index()
     {
+        $questions = Question::all();
+
         if(Auth::user()->qcm >= 8){
             return view('panel.home');
         }
@@ -36,7 +38,6 @@ class QcmController extends Controller
         // On ajoute une tentative à l'utilisateur
         Auth::user()->try++;
         Auth::user()->save();
-        $questions = Question::all();
 
         return view('panel.whitelist.qcm', [
             'questions' => $questions,
