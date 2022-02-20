@@ -24,7 +24,7 @@
             </div>
             <!-- <div class="col-md-4 connect m-4">
                 <span class="fa-stack fa-4x">
-                    <a href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
+                    <a href="https://cfx.re/join/3ax8pr" target="_blank" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
                 </span>
                 <h4 class="my-3">Connectez-vous</h4>
                 <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.be</b></p>
@@ -88,7 +88,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading text-muted-2">Système d'Essence</div>
-                        <div class="portfolio-caption-subheading text-muted-2">Système d'essence entièrement complet avec plusieurs carburants et plusisuers capacités de véhicules !</div>
+                        <div class="portfolio-caption-subheading text-muted-2">Système d'essence entièrement complet avec carburants/batteries et capacités des véhicules differentes !</div>
                     </div>
                 </div>
             </div>
