@@ -48,21 +48,6 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 2-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903057069249277952/Screenshot_64.png" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading text-muted-2">Fabrication de Véhicule</div>
-                        <div class="portfolio-caption-subheading text-muted-2">Faites parti intégrale de l'industrie automobile sur DreamV !</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
                 <!-- Portfolio item 1-->
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -73,7 +58,22 @@
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading text-muted-2">La Pétanque</div>
-                        <div class="portfolio-caption-subheading text-muted-2">Un système de pétanque unique qui saura vous divertir lors de vos plus belles scènes RolePlay</div>
+                        <div class="portfolio-caption-subheading text-muted-2">Un système de pétanque unique qui saura vous divertir lors de vos plus belles scènes RolePlay.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Portfolio item 2-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903057069249277952/Screenshot_64.png" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading text-muted-2">Fabrication de Véhicule</div>
+                        <div class="portfolio-caption-subheading text-muted-2">Vous avez la possibilité de diriger une entreprise de fabrication de véhicule ! Saurez-vous capable de devenir la plus grande richesse de Los Santos ?</div>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">La Pétanque</h2>
-                            <p class="item-intro text-muted">Un système de pétanque unique !</p>
+                            <p class="item-intro text-muted">Un système de pétanque unique qui saura vous divertir lors de vos plus belles scènes RolePlay.</p>
                             <img class="img-fluid d-block mx-auto" src="https://cdn.discordapp.com/attachments/886307709018865706/903054781625532456/Screenshot_63.png" alt="..." />
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-times me-1"></i>
@@ -194,7 +194,7 @@
                     <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Fabrication de Véhicule</h2>
-                            <p class="item-intro text-muted">Sur DreamV vous avez la possibilité de diriger une entreprise de fabrication de véhicule ! Saurez-vous capable de devenir la plus grande richesse de Los Santos ?</p>
+                            <p class="item-intro text-muted">Vous avez la possibilité de diriger une entreprise de fabrication de véhicule ! Saurez-vous capable de devenir la plus grande richesse de Los Santos ?</p>
                             <img class="img-fluid d-block mx-auto" src="https://cdn.discordapp.com/attachments/886307709018865706/903057069249277952/Screenshot_64.png" alt="..." />
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-times me-1"></i>
@@ -218,7 +218,7 @@
                     <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Système d'essence</h2>
-                            <p class="item-intro text-muted">Le système d'essence de DreamV est très poussé, en plus d'une consommation réaliste vous devrez gérer d'autres paramètres, comme le type de carburant pris en charge par votre véhicule mais aussi la capacité du réservoir !</p>
+                            <p class="item-intro text-muted">Système d'essence entièrement complet avec carburants/batteries et capacités des véhicules differentes !</p>
                             <img class="img-fluid d-block mx-auto" src="https://cdn.discordapp.com/attachments/886307709018865706/903058632122449951/Screenshot_65.png" alt="..." />
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-times me-1"></i>
