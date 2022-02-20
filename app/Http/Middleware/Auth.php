@@ -17,11 +17,13 @@ class Auth
     public function handle(Request $request, Closure $next)
     {
         if (auth()->user()) {
+            dd("Co");
             return $next($request);
         }else{
+            dd("pasco");
             Session::flash('message', 'Vous devez vous connecter avant de pouvoir passer la withelist !'); 
             Session::flash('alert-class', 'alert-danger'); 
-            return redirect('/panel/home');
+            return redirect('home');
         }
     }
 }

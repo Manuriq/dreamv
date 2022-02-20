@@ -19,7 +19,9 @@
 <body id="page-top">
     <!-- Navigation-->
     @if(Session::has('message'))
-        <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
+    <div class="alert {{ Session::get('alert-class', 'alert-info') }} alert-dismissible fade show mb-" role="alert">
+        <center>{{ Session::get('message') }}</center>
+    </div>
     @endif
     @include('assets.navigation')
     <!-- Masthead-->
@@ -28,7 +30,7 @@
             <div class="col-xl-6 col-12">
                 <div class="masthead-subheading">San Andreas DreamV !</div>
                 <img class="img-roleplay" src="assets/img/roleplay.png" alt="">
-                <a class="btn btn-primary btn-xl text-uppercase" href="https://www.dreamv.be/panel/whitelist">Rejoins Nous !</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="{{ route('whitelist.index') }}">Rejoins Nous !</a>
             </div>
             <img src="assets/img/wooman.png" class="img-girl" alt="">
         </div>
