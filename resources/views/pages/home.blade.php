@@ -17,10 +17,10 @@
             </div>
             <div class="col-md-4 whitelist m-4">
                 <span class="fa-stack fa-4x mb-4">
-                    <a href="https://www.dreamv.be/panel/whitelist" rel="noopener noreferrer"><img src="assets/img/whitelist.png" width="150px" height="150px" alt="WhiteList"></a>
+                    <a href="https://www.dreamv.be/panel" rel="noopener noreferrer"><img src="assets/img/whitelist.png" width="150px" height="150px" alt="WhiteList"></a>
                 </span>
                 <h4 class="my-3">Whitelist</h4>
-                <p class="text-muted"><a href="https://www.dreamv.be/panel/whitelist" rel="noopener noreferrer">Connectez</a> vous directement sur votre panel avec discord pour passer la whitelist !</p>
+                <p class="text-muted"><a href="https://www.dreamv.be/panel" rel="noopener noreferrer">Connectez</a> vous directement sur votre panel avec discord pour passer la whitelist !</p>
             </div>
             <!-- <div class="col-md-4 connect m-4">
                 <span class="fa-stack fa-4x">
