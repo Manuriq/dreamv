@@ -25,7 +25,7 @@
             <div class="col-xl-6 col-12">
                 <div class="masthead-subheading">San Andreas DreamV !</div>
                 <img class="img-roleplay" src="assets/img/roleplay.png" alt="">
-                <a class="btn btn-primary btn-xl text-uppercase" href="login.php">Rejoins Nous !</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="https://www.dreamv.be/panel/whitelist">Rejoins Nous !</a>
             </div>
             <img src="assets/img/wooman.png" class="img-girl" alt="">
         </div>
