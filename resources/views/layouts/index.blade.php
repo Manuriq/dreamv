@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>DreamV RolePlay</title>
+    <title>S.A DreamV RolePlay</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/logo.png"/>
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -28,7 +28,7 @@
             <div class="col-xl-6 col-12">
                 <div class="masthead-subheading">San Andreas DreamV !</div>
                 <img class="img-roleplay" src="assets/img/roleplay.png" alt="">
-                <a class="btn btn-primary btn-xl text-uppercase" href="login.php">Rejoins Nous !</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="https://www.dreamv.be/panel/whitelist">Rejoins Nous !</a>
             </div>
             <img src="assets/img/wooman.png" class="img-girl" alt="">
         </div>
