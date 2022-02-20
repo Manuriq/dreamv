@@ -18,6 +18,9 @@
 </head>
 <body id="page-top">
     <!-- Navigation-->
+    @if(Session::has('message'))
+        <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
+    @endif
     @include('assets.navigation')
     <!-- Masthead-->
     <header class="masthead">
