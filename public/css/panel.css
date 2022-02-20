@@ -81,7 +81,7 @@
 
 body {
   margin: 0;
-  background-image: url(../assets/img/home-bg.png);
+  background-image: url("../assets/img/section-333.png") !important;
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
