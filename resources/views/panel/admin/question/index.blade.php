@@ -4,7 +4,7 @@
 <div class="container-fluid mt-4 mb-4">
     <div class="row d-flex justify-content-around">
         @include('assets/nav-panel')
-        <div class="col-9">
+        <div class="col-lg-9 col-sm-11">
             <div class="row d-flex justify-content-around">
                 <div class="col-12">
                     <div class="card">

@@ -3,38 +3,42 @@
 @section('content')
 <section class="page-section section-bg-1" id="services">
     <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Rejoignez-nous !</h2>
-            <h3 class="section-subheading text-muted">C'est simple et rapide.</h3>
-        </div>
-        <div class="row text-center d-flex justify-content-center">
-            <div class="col-md-4 fivem m-4">
-                <span class="fa-stack fa-4x mb-4">
-                    <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer"><img src="assets/img/fivem.png" width="150px" height="150px" alt="FiveM"></a>
-                </span>
-                <h4 class="my-3">FiveM</h4>
-                <p class="text-muted">Téléchargez et installez fivem en cliquant sur ce <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer">lien</a>.</p>
-            </div>
-            <div class="col-md-4 whitelist m-4">
-                <span class="fa-stack fa-4x mb-4">
-                    <a href="{{ route('whitelist.index') }}" rel="noopener noreferrer"><img src="assets/img/whitelist.png" width="150px" height="150px" alt="WhiteList"></a>
-                </span>
-                <h4 class="my-3">Whitelist</h4>
-                <p class="text-muted"><a href="{{ route('panel.home') }}" rel="noopener noreferrer">Connectez</a> vous directement sur votre panel avec discord pour passer la whitelist !</p>
-            </div>
-            <!-- <div class="col-md-4 connect m-4">
-                <span class="fa-stack fa-4x">
-                    <a href="https://cfx.re/join/3ax8pr" target="_blank" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
-                </span>
-                <h4 class="my-3">Connectez-vous</h4>
-                <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.be</b></p>
-            </div> -->
-            <div class="col-md-4 connect m-4">
-                <span class="fa-stack fa-4x">
-                    <a href="#WIP" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
-                </span>
-                <h4 class="my-3">Connectez-vous</h4>
-                <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="#WIP" rel="noopener noreferrer">game.dreamv.be</b></p>
+        <div class="row justify-content-md-center">    
+            <div class="col-lg-11">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Rejoignez-nous !</h2>
+                    <h3 class="section-subheading text-muted">C'est simple et rapide.</h3>
+                </div>
+                <div class="row text-center d-flex justify-content-center">
+                    <div class="col-md-4 fivem m-4">
+                        <span class="fa-stack fa-4x mb-4">
+                            <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer"><img src="assets/img/fivem.png" width="150px" height="150px" alt="FiveM"></a>
+                        </span>
+                        <h4 class="my-3">FiveM</h4>
+                        <p class="text-muted">Téléchargez et installez fivem en cliquant sur ce <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer">lien</a>.</p>
+                    </div>
+                    <div class="col-md-4 whitelist m-4">
+                        <span class="fa-stack fa-4x mb-4">
+                            <a href="{{ route('whitelist.index') }}" rel="noopener noreferrer"><img src="assets/img/whitelist.png" width="150px" height="150px" alt="WhiteList"></a>
+                        </span>
+                        <h4 class="my-3">Whitelist</h4>
+                        <p class="text-muted"><a href="{{ route('panel.home') }}" rel="noopener noreferrer">Connectez</a> vous directement sur votre panel avec discord pour passer la whitelist !</p>
+                    </div>
+                    <!-- <div class="col-md-4 connect m-4">
+                        <span class="fa-stack fa-4x">
+                            <a href="https://cfx.re/join/3ax8pr" target="_blank" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
+                        </span>
+                        <h4 class="my-3">Connectez-vous</h4>
+                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.be</b></p>
+                    </div> -->
+                    <div class="col-md-4 connect m-4">
+                        <span class="fa-stack fa-4x">
+                            <a href="#WIP" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
+                        </span>
+                        <h4 class="my-3">Connectez-vous</h4>
+                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="#WIP" rel="noopener noreferrer">game.dreamv.be</b></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -42,53 +46,57 @@
 <!-- Portfolio Grid-->
 <section class="page-section section-bg-2" id="portfolio">
     <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Nos Systèmes</h2>
-            <h3 class="section-subheading text-muted">Un petit aperçu de quelques systèmes disponibles sur le serveur.</h3>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 1-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903054781625532456/Screenshot_63.png" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading text-muted-2">La Pétanque</div>
-                        <div class="portfolio-caption-subheading text-muted-2">Un système de pétanque unique qui saura vous divertir lors de vos plus belles scènes RolePlay.</div>
-                    </div>
+        <div class="row justify-content-md-center">    
+            <div class="col-lg-11">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Nos Systèmes</h2>
+                    <h3 class="section-subheading text-muted">Un petit aperçu de quelques systèmes disponibles sur le serveur.</h3>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 2-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903054781625532456/Screenshot_63.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading text-muted-2">La Pétanque</div>
+                                <div class="portfolio-caption-subheading text-muted-2">Un système de pétanque unique qui saura vous divertir lors de vos plus belles scènes RolePlay.</div>
+                            </div>
                         </div>
-                        <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903057069249277952/Screenshot_64.png" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading text-muted-2">Fabrication de Véhicule</div>
-                        <div class="portfolio-caption-subheading text-muted-2">Vous avez la possibilité de diriger une entreprise de fabrication de véhicule ! Saurez-vous capable de devenir la plus grande richesse de Los Santos ?</div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 3-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903057069249277952/Screenshot_64.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading text-muted-2">Fabrication de Véhicule</div>
+                                <div class="portfolio-caption-subheading text-muted-2">Vous avez la possibilité de diriger une entreprise de fabrication de véhicule ! Saurez-vous capable de devenir la plus grande richesse de Los Santos ?</div>
+                            </div>
                         </div>
-                        <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903058632122449951/Screenshot_65.png" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading text-muted-2">Système d'Essence</div>
-                        <div class="portfolio-caption-subheading text-muted-2">Système d'essence entièrement complet avec carburants/batteries et capacités des véhicules differentes !</div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://cdn.discordapp.com/attachments/886307709018865706/903058632122449951/Screenshot_65.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading text-muted-2">Système d'Essence</div>
+                                <div class="portfolio-caption-subheading text-muted-2">Système d'essence entièrement complet avec carburants/batteries et capacités des véhicules differentes !</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

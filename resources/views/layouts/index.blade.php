@@ -20,7 +20,9 @@
     <!-- Navigation-->
     @if(Session::has('message'))
     <div class="alert {{ Session::get('alert-class', 'alert-info') }} alert-dismissible fade show mb-" role="alert">
-        <center>{{ Session::get('message') }}</center>
+        <center>
+            {{ Session::get('message') }}
+        </center>
     </div>
     @endif
     @include('assets.navigation')
@@ -40,9 +42,11 @@
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-4"><img src="assets/logo.png" width="160px" height="120px" alt="DreamV"></div>
-                <div class="col-4">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-4 col-sm-12">
+                    <img src="assets/logo.png" class="center-block" width="160px" height="120px" alt="DreamV">
+                </div>
+                <div class="col-lg-4 col-sm-12 d-none d-lg-block">
                     <h3>Menu</h3>
                     <ul class="list-group">
                         <li class=""><a href="{{ route('home') }}">Accueil</a></li>
@@ -52,7 +56,7 @@
                         <li class=""><a href="#portfolio">Devlog</a></li>
                     </ul>                   
                 </div>
-                <div class="col-4">S.A DreamV est un serveur roleplay whitelist proposant une immersion unique avec comme seule limite la réalité ! Si vous avez 18 ans et plus, venez nous rejoindre pour commencer votre aventure et écrire la suite de votre histoire.</div>
+                <div class="col-lg-4 col-sm-12 d-none d-lg-block">S.A DreamV est un serveur roleplay whitelist proposant une immersion unique avec comme seule limite la réalité ! Si vous avez 18 ans et plus, venez nous rejoindre pour commencer votre aventure et écrire la suite de votre histoire.</div>
             </div>
         </div>
     </section>

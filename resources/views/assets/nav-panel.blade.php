@@ -1,4 +1,4 @@
-<div class="col-2">
+<div class="col-lg-2 col-sm-11 mb-4">
     <ul class="list-group">
         <a href="{{ route('panel.home') }}"><li class="list-group-item {{ (request()->is('panel/home')) ? 'active' : '' }}"><i class="fas fa-home fas-custom"></i>Mon Compte</li></a>
         @if (Auth::user()->whitelisted == 0)
