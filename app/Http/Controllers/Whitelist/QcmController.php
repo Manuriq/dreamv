@@ -34,7 +34,7 @@ class QcmController extends Controller
                 'error' => "Il n'y a pas assez de réponses pour participer au QCM (Min: 10)"
             ]);
         }
-        
+        $questions = $questions->random(10);
         // On ajoute une tentative à l'utilisateur
         Auth::user()->try++;
         Auth::user()->save();
