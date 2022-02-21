@@ -15,14 +15,14 @@
                             <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer"><img src="assets/img/fivem.png" width="150px" height="150px" alt="FiveM"></a>
                         </span>
                         <h4 class="my-3">FiveM</h4>
-                        <p class="text-muted">Téléchargez et installez fivem en cliquant sur ce <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer">lien</a>.</p>
+                        <p class="text-muted">Téléchargez et installez fivem en cliquant sur ce <a href="https://fivem.net/" target="_blank" rel="noopener noreferrer"><b style="color: #001426;">lien</b></a>.</p>
                     </div>
                     <div class="col-md-4 whitelist m-4">
                         <span class="fa-stack fa-4x mb-4">
                             <a href="{{ route('whitelist.index') }}" rel="noopener noreferrer"><img src="assets/img/whitelist.png" width="150px" height="150px" alt="WhiteList"></a>
                         </span>
                         <h4 class="my-3">Whitelist</h4>
-                        <p class="text-muted"><a href="{{ route('panel.home') }}" rel="noopener noreferrer">Connectez</a> vous directement sur votre panel avec discord pour passer la whitelist !</p>
+                        <p class="text-muted"><a href="{{ route('panel.home') }}" rel="noopener noreferrer"><b style="color: #4bcdff;">Connectez</b></a> vous directement sur votre panel avec discord pour passer la whitelist !</p>
                     </div>
                     <!-- <div class="col-md-4 connect m-4">
                         <span class="fa-stack fa-4x">
@@ -36,7 +36,7 @@
                             <a href="#WIP" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
                         </span>
                         <h4 class="my-3">Connectez-vous</h4>
-                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="#WIP" rel="noopener noreferrer">game.dreamv.be</b></p>
+                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b style="color: #014612;">game.dreamv.be</b></p>
                     </div>
                 </div>
             </div>
