@@ -20,7 +20,7 @@
                                     @foreach ($answers as $answer)
                                     
                                         @if ($answer->question->id == $question->id)
-                                            <li><input type="checkbox" name="reponse[{{ $question->id }}][{{ $answer->id }}]"> {{ $answer->content }} {{ $answer->isCorrect }}</li>
+                                            <li><input type="checkbox" name="reponse[{{ $question->id }}][{{ $answer->id }}]"> {{ $answer->content }}</li>
                                         @endif
                                     @endforeach
                                     </ul>
