@@ -153,13 +153,6 @@
                     <p class="text-muted">Mappeur / Builder</p>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/897965542021935125/941469663945170994/IMG_20211221_123937_189.jpg" alt="..." />
-                    <h4>Raimies</h4>
-                    <p class="text-muted">Douanier</p>
-                </div>
-            </div>
         </div>
         <div class="row">
             <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">L'équipe de S.A Dream vous souhaite la bienvenue et vous souhaite de passer un agréable moment sur notre serveur !</p></div>
