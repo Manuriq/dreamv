@@ -29,14 +29,14 @@
                             <a href="https://cfx.re/join/3ax8pr" target="_blank" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
                         </span>
                         <h4 class="my-3">Connectez-vous</h4>
-                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.be</b></p>
+                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.fr</b></p>
                     </div> -->
                     <div class="col-md-4 connect m-4">
                         <span class="fa-stack fa-4x">
                             <a href="#WIP" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
                         </span>
                         <h4 class="my-3">Connectez-vous</h4>
-                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b style="color: #014612;">game.dreamv.be</b></p>
+                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b style="color: #014612;">WIP</b></p>
                     </div>
                 </div>
             </div>
