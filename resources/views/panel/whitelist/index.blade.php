@@ -46,8 +46,8 @@
                             </div>
                             <div class="card-body">
                                 <center>      
-                                <p class="card-text" >Attention ! Vous allez passer un questionnaire à choix multiples sur des questions d'ordres RolePlay. Lisez attentivement le règlement
-                                    du serveur au pré-alable. Il peut y avoir plusieurs réponses valides pour une seule question. Bonne chance !
+                                <p class="card-text" >Attention ! Vous allez passer un questionnaire à choix unique sur des questions d'ordres RolePlay. Lisez attentivement le règlement
+                                    du serveur au pré-alable. Il n'y a qu'une réponses valides pour une seule question. Bonne chance !
                                 </p>
                                 <a href="{{ route('whitelist.qcm') }}" class="btn btn-primary">Passer la Whitelist</a>
                                 </center>
