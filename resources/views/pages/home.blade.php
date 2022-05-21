@@ -29,14 +29,14 @@
                             <a href="https://cfx.re/join/3ax8pr" target="_blank" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
                         </span>
                         <h4 class="my-3">Connectez-vous</h4>
-                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.be</b></p>
+                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b href="https://cfx.re/join/3ax8pr#-b2189" target="_blank" rel="noopener noreferrer">game.dreamv.fr</b></p>
                     </div> -->
                     <div class="col-md-4 connect m-4">
                         <span class="fa-stack fa-4x">
                             <a href="#WIP" rel="noopener noreferrer"><img src="assets/logo.png" width="150px" height="120px" alt="Connexion"></a>
                         </span>
                         <h4 class="my-3">Connectez-vous</h4>
-                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b style="color: #014612;">game.dreamv.be</b></p>
+                        <p class="text-muted">Connectez-vous directement sur le serveur à l'aide de cette adresse: <b style="color: #014612;">WIP</b></p>
                     </div>
                 </div>
             </div>
@@ -151,13 +151,6 @@
                     <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/902184757251698748/941586955483893780/IMG_20220207_221045_643.jpg" alt="..." />
                     <h4>Roumain</h4>
                     <p class="text-muted">Mappeur / Builder</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="https://cdn.discordapp.com/attachments/897965542021935125/941469663945170994/IMG_20211221_123937_189.jpg" alt="..." />
-                    <h4>Raimies</h4>
-                    <p class="text-muted">Douanier</p>
                 </div>
             </div>
         </div>

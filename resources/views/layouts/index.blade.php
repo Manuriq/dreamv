@@ -50,9 +50,9 @@
                     <h3>Menu</h3>
                     <ul class="list-group">
                         <li class=""><a href="{{ route('home') }}">Accueil</a></li>
-                        <li class=""><a href="https://wiki.dreamv.be/" target="_blank" rel="noopener noreferrer">Wiki</a></li>
-                        <li class=""><a href="http://discord.dreamv.fr" target="_blank" rel="noopener noreferrer">Discord</a></li>
-                        <li class=""><a href="https://rules.dreamv.be/" target="_blank" rel="noopener noreferrer">Règlement</a></li>
+                        <li class=""><a href="https://wiki.dreamv.fr/" target="_blank" rel="noopener noreferrer">Wiki</a></li>
+                        <li class=""><a href="http://discord.dreamv.fr/" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                        <li class=""><a href="https://rules.dreamv.fr/" target="_blank" rel="noopener noreferrer">Règlement</a></li>
                         <li class=""><a href="#portfolio">Devlog</a></li>
                     </ul>                   
                 </div>
